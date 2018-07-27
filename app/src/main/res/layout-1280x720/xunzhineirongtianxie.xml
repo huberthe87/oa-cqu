@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundqianlv" >
+
+    <TextView
+        android:id="@+id/shebeiweixiushengqing"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="#5F9F9F"
+        android:gravity="center"
+        android:text="事件申请"
+        android:textColor="#FFFFFF"
+        android:textSize="17sp" />
+
+    <EditText
+        android:id="@+id/xunzhibiaoti"
+        android:layout_width="200dp"
+        android:layout_height="26dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="86dp"
+        android:background="@drawable/shape_button"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="输入标题"
+        android:textSize="16sp" />
+
+    <ImageButton
+        android:id="@+id/xunzhineirongtianxiefanhui"
+        android:layout_width="60dp"
+        android:layout_height="65dp"
+        android:layout_alignBottom="@+id/shebeiweixiushengqing"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/topback"
+        android:scaleType="fitXY" />
+
+    <Button
+        android:id="@+id/xunzhineirongfasong"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/shape_button2"
+        android:text="发送"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="266dp"
+        android:layout_marginTop="135dp"
+        android:text="巡值内容:"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="266dp"
+        android:layout_marginTop="86dp"
+        android:text="标      题  :"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/xunzhineirong"
+        android:layout_width="200dp"
+        android:layout_height="120dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="135dp"
+        android:background="@drawable/shape_button"
+        android:ems="10"
+        android:gravity="top"
+        android:hint=" " />
+
+    <Button
+        android:id="@+id/xunzhineirongtianxiepaizhao"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="46dp"
+        android:layout_height="46dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="266dp"
+        android:layout_marginTop="286dp"
+        android:layout_marginBottom="31dp"
+        android:background="@drawable/xiangji" />
+
+    <ImageView
+        android:id="@+id/xnzhiimageView1"
+        android:layout_width="140dp"
+        android:layout_height="200dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="266dp"
+        android:src="#11FFFFFF" />
+
+</RelativeLayout>

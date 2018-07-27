@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundqianhui" >
+    
+    <TextView
+        android:id="@+id/shebeiweixiushengqing"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="账户密码修改" 
+        android:gravity="center"
+        android:textColor = "#FFFFFF"
+        android:textSize="17sp"
+        android:background ="#B5B5B5" />
+    
+    
+     <ImageButton
+        android:id="@+id/fanhui"
+        android:layout_width="60dp"
+        android:layout_height="65dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignBottom="@+id/shebeiweixiushengqing"
+        android:background="@drawable/topback"
+        android:scaleType="fitXY" />
+
+     
+      <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="100dp"
+        android:text="账    户:"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:textSize="22sp" />
+      
+       <EditText
+        android:id="@+id/zhanghu"
+        android:layout_width="230dp"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/shape_button"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="请输入您的用户名" />
+
+      <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="160dp"
+        android:text="旧密码:"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:textSize="22sp" />
+      
+      <EditText
+        android:id="@+id/yuanmima"
+        android:layout_width="230dp"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="160dp"
+        android:background="@drawable/shape_button"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="请输入您的旧密码" />
+          
+       <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="220dp"
+        android:text="新密码:"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:textSize="22sp" />
+       
+       
+       <EditText
+        android:id="@+id/xinmima1"
+        android:layout_width="230dp"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="220dp"
+        android:background="@drawable/shape_button"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="请输入您的新密码" />
+       
+      <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="280dp"
+        android:text="新密码:"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:textSize="22sp" />
+      
+       <EditText
+        android:id="@+id/xinmima2"
+        android:layout_width="230dp"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="280dp"
+        android:background="@drawable/shape_button"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="请输入您的新密码" />
+
+       <Button
+        android:id="@+id/queding"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="400dp"
+        android:text="确定"
+        android:background="@drawable/shape_button"
+        android:gravity="center"
+        android:textSize="18sp" />
+       
+        <Button
+        android:id="@+id/quxiao"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="400dp"
+        android:text="取消"
+        android:background="@drawable/shape_button"
+        android:gravity="center"
+        android:textSize="18sp" />
+
+</RelativeLayout>

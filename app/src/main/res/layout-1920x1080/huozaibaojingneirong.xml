@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundanhong" >
+
+    <TextView
+        android:id="@+id/shebeiweixiushengqing"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="#984B4B"
+        android:gravity="center"
+        android:text="火警信息"
+        android:textColor="#FFFFFF"
+        android:textSize="17sp" />
+
+  
+
+
+    <ImageButton
+        android:id="@+id/fanhui"
+        android:layout_width="60dp"
+        android:layout_height="65dp"
+        android:layout_alignBottom="@+id/shebeiweixiushengqing"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/topback"
+        android:scaleType="fitXY" />
+
+    <TextView
+        android:id="@+id/shebeilouceng"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="228dp"
+        android:layout_marginTop="136dp"
+        android:textSize="22sp"
+        android:textColor = "#FFFFFF"
+        android:text="火灾地址  :" />
+
+       <TextView
+        android:id="@+id/shiyongnianxian"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="228dp"
+        android:layout_marginTop="236dp"
+        android:textSize="22sp"
+        android:textColor = "#FFFFFF"
+        android:text="火灾设备  :" /> 
+        
+       <TextView
+        android:id="@+id/fuzerenyuan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="228dp"
+        android:layout_marginTop="336dp"
+        android:textSize="22sp"
+        android:textColor = "#FFFFFF"
+        android:text="发生时间  :" />
+
+    <TextView
+        android:id="@+id/huozaidizhi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="188dp"
+        android:layout_marginTop="136dp"
+        android:textSize="22sp"
+        android:textColor = "#FFFFFF"
+        android:hint="LG小角落" />
+
+       <TextView
+        android:id="@+id/huozaishebei"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="188dp"
+        android:layout_marginTop="236dp"
+        android:textSize="22sp"
+        android:textColor = "#FFFFFF"
+        android:hint="灯泡" /> 
+        
+       <TextView
+        android:id="@+id/fashengshijian"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="188dp"
+        android:layout_marginTop="336dp"
+        android:textSize="22sp"
+        android:textColor = "#FFFFFF"
+        android:hint="不清楚" />         
+</RelativeLayout>

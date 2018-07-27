@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundqianlv" >
+
+    <TextView
+        android:id="@+id/shebeiweixiushengqing"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="#5F9F9F"
+        android:gravity="center"
+        android:text="值班详情"
+        android:textColor="#FFFFFF"
+        android:textSize="17sp" />
+
+    <ImageButton
+        android:id="@+id/dangtianzhibanfanhui"
+        android:layout_width="60dp"
+        android:layout_height="65dp"
+        android:layout_alignBottom="@+id/shebeiweixiushengqing"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/topback"
+        android:scaleType="fitXY" />
+
+    <TextView
+        android:id="@+id/bancileixing"
+        android:layout_width="200dp"
+        android:layout_height="24dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="136dp"
+        android:layout_marginTop="66dp"
+        android:gravity="center"
+
+        android:textSize = "20dp"
+        />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="26dp"
+        android:layout_marginTop="96dp"
+        android:text="工 作  描 述 :"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/huowutupian"
+        android:layout_width="wrap_content"  
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="206dp"
+        android:layout_marginTop="256dp"
+
+        android:src="#11FFFFFF" />
+
+    <TextView
+        android:id="@+id/gongzuomiaoshu"
+        android:layout_width="200dp"
+        android:layout_height="120dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="136dp"
+        android:layout_marginTop="101dp"
+        android:hint=""
+        android:ems="10"
+        android:gravity="center"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="26dp"
+        android:layout_marginTop="66dp"
+        android:text="班 次 类 型 :"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="26dp"
+        android:layout_marginTop="266dp"
+        android:text="下 班 时 间 :"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/TextView02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="26dp"
+        android:layout_marginTop="226dp"
+        android:text="上 班 时 间:"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/shangbanshijian"
+        android:layout_width="200dp"
+        android:layout_height="24dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="136dp"
+        android:layout_marginTop="226dp"
+        android:gravity="center"
+  
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/rerere"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="26dp"
+        android:layout_marginTop="316dp"
+        android:text="值 班 人 员 :"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/zhibanrenyuan"
+        android:layout_width="196dp"
+        android:layout_height="20dp"
+         android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="136dp"
+        android:layout_marginTop="316dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint=""
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/xiabanshijian"
+        android:layout_width="200dp"
+        android:layout_height="24dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="136dp"
+        android:layout_marginTop="266dp"
+        android:gravity="center"
+        android:textSize="20dp" />
+
+</RelativeLayout>

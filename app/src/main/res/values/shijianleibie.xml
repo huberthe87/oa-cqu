@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+ <string-array name="shijianleibie">
+ <item >一般事件</item>
+  <item >特殊事件</item>
+</string-array>
+ <string-array name="shebeilouceng">
+     <item >B2</item>
+     <item >B1</item>
+     <item >LG</item>
+     <item >L1</item>
+     <item >L2</item>
+     <item >L3</item>
+     <item >L4</item>
+     <item >L5</item>
+     <item >L6</item>
+     <item >L7</item>
+ </string-array>
+ <string-array name="shebeileixing">
+     <item >火灾报警</item>
+     <item >视频监控</item>
+     <item >楼宇自控</item>
+     <item >门禁管理</item>
+     <item >智能照明</item>
+     <item >配电系统</item>
+     <item >客流分析</item>
+     <item >冷站群控</item>
+     <item >能源管理</item>
+     <item >电子巡更</item>
+     <item >给排水</item>
+     <item >送排风</item>
+     <item >电梯监控</item>
+     <item >智慧停车</item>
+     
+ </string-array>
+ <string-array name="fasongbumen">
+     <item >安保部</item>
+     <item >策划部</item>
+     <item >物业工程部</item>
+     <item >客服部</item>
+     <item >市场部</item>
+     <item >行政部</item>
+ </string-array>
+
+ 
+    
+</resources>

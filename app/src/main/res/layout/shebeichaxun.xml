@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundshenhui" >
+
+    <TextView
+        android:id="@+id/shebeiweixiushengqing"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="#828282"
+        android:gravity="center"
+        android:text="设备查询"
+        android:textColor="#FFFFFF"
+        android:textSize="17sp" />
+
+  
+
+
+    <ImageButton
+        android:id="@+id/fanhui"
+        android:layout_width="60dp"
+        android:layout_height="65dp"
+        android:layout_alignBottom="@+id/shebeiweixiushengqing"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/topback"
+        android:scaleType="fitXY" />
+
+    <TextView
+        android:id="@+id/sblc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="228dp"
+        android:layout_marginTop="186dp"
+        android:textSize="24sp"
+        android:textColor = "#FFFFFF"
+        android:text="设备类型  :" />
+
+    <TextView
+        android:id="@+id/sblx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="228dp"
+        android:layout_marginTop="266dp"
+        android:textSize="24sp"
+        android:textColor = "#FFFFFF"
+        android:text="设备楼层  :" />
+
+        <Button
+            android:id="@+id/shebeichaxun"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="101dp"
+            android:background="@drawable/shape_buttonchaxun"
+            android:text="查询"
+            android:textSize="22sp"
+            android:textColor="#4D4D4D" />
+
+        <TextView
+            android:id="@+id/TextView01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="228dp"
+        android:layout_marginTop="116dp"
+            android:text="设备系统  :"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/shebeixitong"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="68dp"
+            android:layout_marginTop="116dp"
+            android:hint=""
+            android:textColor="#FFFFFF"
+            android:textSize="24sp" />
+        
+        
+        <TextView
+            android:id="@+id/shebeilouceng"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="68dp"
+            android:layout_marginTop="266dp"
+            android:hint=""
+            android:textColor="#FFFFFF"
+            android:textSize="24sp" />
+        
+        
+                <TextView
+            android:id="@+id/shebeileixing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="68dp"
+            android:layout_marginTop="186dp"
+            android:hint=""
+            android:textColor="#FFFFFF"
+            android:textSize="24sp" />
+                
+                <Button
+                    android:id="@+id/erweima"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_below="@+id/shebeiweixiushengqing"
+                    android:layout_marginTop="20dp"
+                    android:layout_toRightOf="@+id/shebeichaxun"
+                    android:background="@drawable/erweima"
+                     />
+
+</RelativeLayout>

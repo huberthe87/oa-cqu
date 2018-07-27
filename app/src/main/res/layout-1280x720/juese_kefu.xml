@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background" >
+
+    <TextView
+        android:id="@+id/souye"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#6184B2"
+        android:gravity="center"
+        android:text="首页"
+        android:textColor="#FFFFFF"
+        android:textSize="17sp" />
+
+    <ImageButton
+        android:id="@+id/kefubufanghui"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_alignBottom="@+id/souye"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/topback"
+        android:scaleType="fitXY" />
+
+    <ImageView
+        android:id="@+id/half_circls"
+        android:layout_width="183.25dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/half_circls" />
+
+    <ImageButton
+        android:id="@+id/shijianguanli"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="125dp"
+        android:layout_marginTop="130dp"
+        android:background="@drawable/shijianguanli"
+        android:scaleType="fitXY" />
+
+    <ImageButton
+        android:id="@+id/xiaoxiguanli"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="185dp"
+        android:layout_marginTop="280dp"
+        android:background="@drawable/xiaoxiguanli"
+        android:scaleType="fitXY" />
+
+    <ImageButton
+        android:id="@+id/zhanghuguanli"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="130dp"
+        android:layout_marginTop="440dp"
+        android:background="@drawable/zhanghuguanli"
+        android:scaleType="fitXY" />
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="80dp"
+        android:layout_height="20dp"
+        android:layout_alignBottom="@+id/xiaoxiguanli"
+        android:layout_marginBottom="18dp"
+        android:layout_toLeftOf="@+id/xiaoxiguanli"
+        android:text="消息管理"
+        android:textColor="#FFFFFF"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="80dp"
+        android:layout_height="20dp"
+        android:layout_alignBottom="@+id/zhanghuguanli"
+        android:layout_marginBottom="17dp"
+        android:layout_toLeftOf="@+id/zhanghuguanli"
+        android:text="账户管理"
+        android:textColor="#FFFFFF"
+        android:textSize="17sp" />
+
+    
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="80dp"
+        android:layout_height="20dp"
+        android:layout_alignBottom="@+id/shijianguanli"
+        android:layout_marginBottom="18dp"
+        android:layout_toLeftOf="@+id/shijianguanli"
+        android:text="事件管理"
+        android:textColor="#FFFFFF"
+        android:textSize="17sp" />
+
+</RelativeLayout>

@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background" >
+
+    <TextView
+        android:id="@+id/souye"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#6184B2"
+        android:gravity="center"
+        android:text="首页"
+        android:textColor="#FFFFFF"
+        android:textSize="17sp" /> 
+
+    <ImageButton
+        android:id="@+id/fanghui"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_alignBottom="@+id/souye"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+         android:scaleType="fitXY"
+        android:background="@drawable/topback" />
+
+    <ImageButton
+        android:id="@+id/zhanghuguanli"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="145dp"
+        android:layout_marginTop="255dp"
+        android:background="@drawable/zhanghuguanli"
+        android:scaleType="fitXY" />
+
+    <ImageButton
+        android:id="@+id/xunzhiguanli"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="255dp"
+        android:background="@drawable/xunzhiguanli"
+        android:scaleType="fitXY" />
+    
+        <ImageButton
+        android:id="@+id/shanghuguanli"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="390dp"
+        android:background="@drawable/shanghuguanli"
+        android:scaleType="fitXY" />
+        
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="80dp"
+        android:layout_height="20dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="325dp"
+        android:text="巡职管理"
+        android:textColor="#FFFFFF"
+        android:textSize="17sp" />
+    
+     <TextView
+        android:id="@+id/textView8"
+        android:layout_width="80dp"
+        android:layout_height="20dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="460dp"
+        android:text="商户管理"
+        android:textColor="#FFFFFF"
+        android:textSize="17sp" />
+     
+     
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="80dp"
+        android:layout_height="20dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="260dp"
+        android:layout_marginTop="325dp"
+        android:text="消息管理"
+        android:textColor="#FFFFFF"
+        android:textSize="17sp" />
+    
+    
+     <TextView
+        android:id="@+id/TextView9"
+        android:layout_width="80dp"
+        android:layout_height="20dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="260dp"
+        android:layout_marginTop="460dp"
+        android:text="通行管理"
+        android:textColor="#FFFFFF"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="80dp"
+        android:layout_height="20dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="325dp"
+        android:text="账户管理"
+        android:textColor="#FFFFFF"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="80dp"
+        android:layout_height="20dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="260dp"
+        android:layout_marginTop="190dp"
+        android:text="设备管理"
+        android:textColor="#FFFFFF"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="80dp"
+        android:layout_height="20dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="190dp"
+        android:text="报警管理"
+        android:textColor="#FFFFFF"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="80dp"
+        android:layout_height="20dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="190dp"
+        android:text="事件管理"
+        android:textColor="#FFFFFF"
+        android:textSize="17sp" />
+
+    <ImageButton
+        android:id="@+id/shijianguanli"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="120dp"
+        android:background="@drawable/shijianguanli"
+        android:scaleType="fitXY" />
+
+    <ImageButton
+        android:id="@+id/baojingguanli"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="145dp"
+        android:layout_marginTop="120dp"
+        android:background="@drawable/baojingguanli"
+        android:scaleType="fitXY" />
+
+    <ImageButton
+        android:id="@+id/shebeiguanli"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="265dp"
+        android:layout_marginTop="120dp"
+        android:background="@drawable/shebeiguanli"
+        android:scaleType="fitXY" />
+
+    <ImageButton
+        android:id="@+id/xiaoxiguanli"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="265dp"
+        android:layout_marginTop="255dp"
+        android:background="@drawable/xiaoxiguanli"
+        android:scaleType="fitXY" />
+    
+        <ImageButton
+        android:id="@+id/tongxingguanli"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="265dp"
+        android:layout_marginTop="390dp"
+        android:background="@drawable/tongxingguanli"
+        android:scaleType="fitXY" />
+
+</RelativeLayout>

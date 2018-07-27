@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+     android:background="@drawable/backgroundqianlan" >
+    
+    <TextView
+        android:id="@+id/shebeiweixiushengqing"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="广告管理" 
+        android:gravity="center"
+        android:textColor = "#FFFFFF"
+        android:textSize="17sp"
+        android:background ="@drawable/backgroundqianlan" />
+    
+        <ImageButton
+        android:id="@+id/guanggaofenleifanhui"
+        android:layout_width="60dp"
+        android:layout_height="65dp"
+        android:layout_alignBottom="@+id/shebeiweixiushengqing"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+                 android:scaleType="fitXY"
+        android:background="@drawable/topback" />
+
+        <Button
+            android:id="@+id/yitiuhuiguanggao"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/shebeiweixiushengqing"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="130dp"
+            android:background="@drawable/shape_button"
+            android:gravity="center_vertical"
+            android:text="                    已退回广告"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/daishenheguanggao"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/shebeiweixiushengqing"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="316dp"
+            android:background="@drawable/shape_button2"
+            android:gravity="center_vertical"
+            android:text="                     待审核广告"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/yitongguoguanggao"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+                        android:layout_alignLeft="@+id/daishenheguanggao"
+                                    android:layout_below="@+id/yitiuhuiguanggao"
+            android:layout_marginTop="48dp"
+            android:background="@drawable/shape_button"
+            android:gravity="center_vertical"
+            android:text="                    已通过广告"
+            android:textSize="20sp" />
+
+</RelativeLayout>
+

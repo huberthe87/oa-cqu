@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/backgroundzhonghui" >
+         
+         
+
+                 
+        <TextView
+        android:id="@+id/souye"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="#8E8E8E"
+        android:gravity="center"
+        android:text="通行信息"
+        android:textColor="#FFFFFF"
+        android:textSize="17sp" />
+
+        <ImageButton
+        android:id="@+id/tongxingshichanglistfanghui"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_alignBottom="@+id/souye"
+        android:background="@drawable/topback"
+        android:scaleType="fitXY" />
+
+         <TextView
+             android:id="@+id/lishizhibanshijian"
+             android:layout_width="206dp"
+             android:layout_height="45dp"
+               android:layout_below="@+id/tongxingshichanglistfanghui"                 
+             android:gravity="center"
+             android:background="@drawable/backgroundzhonghui"
+             android:text="申请时间"
+             android:textColor="#FFFFff"
+             android:textSize="16sp" />
+            
+      <ListView
+          android:id="@+id/lv"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:layout_below="@+id/lishizhibanshijian" />
+
+      <TextView
+          android:id="@+id/lishizhibanren"
+          android:layout_width="100dp"
+          android:layout_height="45dp"
+          android:layout_alignParentRight="true"
+          android:layout_below="@+id/souye"
+          android:layout_toRightOf="@+id/lishizhibanshijian"
+          android:background="@drawable/backgroundzhonghui"
+          android:gravity="center"
+          android:text="货物类型"
+          android:textColor="#FFFFFF"
+          android:textSize="17sp" />
+  
+</RelativeLayout>

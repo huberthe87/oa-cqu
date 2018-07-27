@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     android:background="@drawable/backgroundqianlv" >
+     
+       <Button
+        android:id="@+id/shishibancichaxun"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="135dp"
+        android:background="@drawable/shape_button1"
+        android:text="       实时班次查询" />
+
+    <Button
+        android:id="@+id/lishibancichaxun"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="315dp"
+        android:background="@drawable/shape_button1"
+        android:text="        历史班次查询" />
+    
+    <ImageView
+        android:id="@+id/ImageView01"
+        android:layout_width="66dp"
+        android:layout_height="66dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="241dp"
+        android:layout_marginTop="133dp"
+        android:src="@drawable/gerenshijian" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="66dp"
+        android:layout_height="66dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="240dp"
+        android:layout_marginTop="313dp"
+        android:src="@drawable/zongheshijian" />
+
+</RelativeLayout>

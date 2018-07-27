@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="mubiaobumen">
+        <item >物业工程部</item>
+        <item >安保部</item>
+        <item >策划部</item>
+        <item >市场部</item>
+        <item >行政部</item>
+        <item >客服部</item>
+    </string-array>
+    
+</resources>

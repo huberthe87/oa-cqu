@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundqianlv"  >
+
+    <Button
+        android:id="@+id/dakafasong"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="68dp"
+        android:background = "@drawable/shape_buttonchaxun"
+        android:text="打卡" />
+    
+     <TextView
+        android:id="@+id/dakarenyuantitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="228dp"
+        android:layout_marginTop="136dp"
+        android:textSize="22sp"
+        android:textColor = "#FFFFFF"
+        android:text="打卡人员  :" />
+
+       <TextView
+        android:id="@+id/shiyongnianxian"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="228dp"
+        android:layout_marginTop="216dp"
+        android:textSize="22sp"
+        android:textColor = "#FFFFFF"
+        android:text="NFC     ID  :" /> 
+        
+           <TextView
+        android:id="@+id/dakarenyuan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="188dp"
+        android:layout_marginTop="136dp"
+        android:textSize="22sp"
+        android:textColor = "#FFFFFF"
+        android:hint="androw" />
+           
+       <TextView
+        android:id="@+id/nfcid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="188dp"
+        android:layout_marginTop="216dp"
+        android:textSize="18sp"
+        android:textColor = "#FFFFFF"
+        android:hint="JDA1dsada231"/>
+
+       <TextView
+           android:id="@+id/TextView01"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="228dp"
+        android:layout_marginTop="296dp"
+           android:text="打 卡 地 址:"
+           android:textColor="#FFFFFF"
+           android:textSize="22sp" />
+
+       <TextView
+           android:id="@+id/dakadizhi"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignParentLeft="true"
+           android:layout_alignParentTop="true"
+           android:layout_marginLeft="188dp"
+           android:layout_marginTop="296dp"
+           android:hint="打卡地址"
+           android:textColor="#FFFFFF"
+           android:textSize="18sp" />
+
+</RelativeLayout>

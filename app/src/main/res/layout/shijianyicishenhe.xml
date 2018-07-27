@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@drawable/background" >
+         <LinearLayout
+         android:id="@+id/linearLayout_shijianlist"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:orientation="vertical" >    
+         
+       
+         
+         <RelativeLayout
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+         >
+                 
+        <TextView
+        android:id="@+id/souye"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="#6184B2"
+        android:gravity="center"
+        android:text="事件一次审核"
+        android:textColor="#FFFFFF"
+        android:textSize="17sp" />
+
+        <ImageButton
+        android:id="@+id/fanghui"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_alignBottom="@+id/souye"
+        android:background="@drawable/topback"
+        android:scaleType="fitXY" />
+        
+        </RelativeLayout>
+    
+       <LinearLayout
+           android:id="@+id/xiaoxiaoyemian"
+           android:layout_width="match_parent"
+           android:layout_height="432dp"
+           android:background="#00000000"
+           android:orientation="horizontal" >
+       
+       <LinearLayout
+             android:layout_width="135dp"
+             android:layout_height="wrap_content"
+             android:background="#00000000"
+             android:orientation="vertical">
+
+               
+          
+ 
+      
+      
+               <LinearLayout
+                   android:id="@+id/shijiankuang18"
+                 android:layout_width="match_parent"
+                 android:layout_height="56dp"
+                 android:background="#000000ff"
+                 android:orientation="horizontal">
+            <TextView
+            android:id="@+id/yishentongguoshijian18"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="申  请  人："
+            android:textColor="#FFFF77"
+            android:textSize="18sp"
+            android:gravity="center" />    
+                       
+      </LinearLayout>
+ 
+               
+               
+    
+               
+      <LinearLayout
+                 android:id="@+id/shijiankuang20"
+                 android:layout_width="match_parent"
+                 android:layout_height="56dp"
+                 android:background="#000000ff"
+                 android:orientation="horizontal">
+      <TextView
+            android:id="@+id/yishentongguoshijian20"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="申请时间："
+            android:textColor="#FFFF77"
+            android:textSize="18sp"
+            android:gravity="center" />            
+      </LinearLayout>   
+       
+                            
+      
+      <LinearLayout
+                 android:id="@+id/shijiankuang3234"
+                 android:layout_width="match_parent"
+                 android:layout_height="56dp"
+                 android:background="#000000ff"
+                 android:orientation="horizontal">
+      <TextView
+            android:id="@+id/yishentongguoshijian43530"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="申请内容："
+            android:textColor="#FFFF77"
+            android:textSize="18sp"
+            android:gravity="center" />            
+      </LinearLayout>                          
+                            
+                            
+                                     <LinearLayout
+                   android:id="@+id/shijiankuangkodsad"
+                 android:layout_width="match_parent"
+                 android:layout_height="110dp"
+                 android:background="#000000ff"
+                 android:orientation="horizontal">
+            <TextView
+            android:id="@+id/yishentongguoshijiaddsa"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text=""
+            android:textColor="#FFFF77"
+            android:textSize="26sp"
+            android:gravity="center" />            
+      </LinearLayout>                   
+                            
+                                         
+                            
+                            
+                        <LinearLayout
+                 android:id="@+id/dsaddddda"
+                 android:layout_width="match_parent"
+                 android:layout_height="56dp"
+                 android:background="#000000ff"
+                 android:orientation="horizontal">
+      <TextView
+            android:id="@+id/tdsadasdasdas"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="退回原因："
+            android:textColor="#FFFF77"
+            android:textSize="18sp"
+            android:gravity="center" />            
+      </LinearLayout>                    
+                            
+                            
+     </LinearLayout> 
+
+        
+      <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+             android:orientation="vertical">      
+     
+   
+          
+   
+               
+               
+                      <LinearLayout
+                   android:id="@+id/neirongkuang19"
+                 android:layout_width="match_parent"
+                 android:layout_height="56dp"
+                 android:background="#000000ff"
+                 android:orientation="horizontal">
+            <TextView
+            android:id="@+id/wclyishentongguoren"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="张三"
+            android:textColor="#FFFF77"
+            android:textSize="14sp"
+            android:gravity="center" />            
+      </LinearLayout>
+       
+                      
+                      
+
+      
+                             
+      <LinearLayout
+                 android:id="@+id/neirongkuang20"
+                 android:layout_width="match_parent"
+                 android:layout_height="56dp"
+                 android:background="#000000ff"
+                 android:orientation="horizontal">
+      <TextView
+            android:id="@+id/wclyishentongguoshijian"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="2016/12/31"
+            android:textColor="#FFFF77"
+            android:textSize="14sp"
+            android:gravity="center" />            
+      </LinearLayout>   
+      
+
+      
+            <LinearLayout
+                 android:id="@+id/shijiankuang32324"
+                 android:layout_width="match_parent"
+                 android:layout_height="166dp"
+                 android:background="#000000ff"
+                 android:orientation="horizontal">
+      <TextView
+            android:id="@+id/wclyishentongguoneirong"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:lineSpacingExtra="6sp"
+            android:hint="出了好多好多好多好多好多好多好多蟑螂,快去捉啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊"
+            android:textColor="#FFFF77"
+            android:textSize="16sp"
+            android:padding = "18sp"
+ />            
+      </LinearLayout>  
+      
+      
+            
+      
+            <LinearLayout
+            android:id="@+id/dsacxdddddcdsdadadasda"
+            android:layout_width="match_parent"
+            android:layout_height="96dp"
+            android:background="#000000ff"
+            android:orientation="horizontal">
+      
+      <EditText
+            android:id="@+id/wclyishentuihuiyuanyin"
+            android:layout_width="match_parent"
+            android:layout_height="96dp"
+            android:hint="退回否"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp"
+            android:gravity="center" />            
+      </LinearLayout>  
+      
+      
+      </LinearLayout>             
+            
+            
+               
+    </LinearLayout>
+    
+    <RelativeLayout
+        android:layout_width="match_parent" 
+        android:layout_height="96dp" 
+        android:layout_below="@+id/wclyishentuihuiyuanyin"
+         >
+
+    <Button
+        android:id="@+id/yishentongguo"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="23dp"
+        android:layout_marginLeft="36dp"
+        android:background="@drawable/shape_button"
+        android:text="通过"
+        android:textColor="#111111"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/yishentuihui"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="23dp"
+        android:layout_marginRight="36dp"
+        android:background="@drawable/shape_button2"
+        android:text="退回"
+        android:textColor="#111111"
+        android:textSize="20sp" />
+        
+        </RelativeLayout>   
+ 
+    </LinearLayout>
+    
+    
+
+</RelativeLayout>

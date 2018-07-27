@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundzhonghui" >
+
+    <TextView
+        android:id="@+id/shebeiweixiushengqing"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="#8E8E8E"
+        android:gravity="center"
+        android:text="通行申请"
+        android:textColor="#FFFFFF"
+        android:textSize="17sp" />
+
+    <ImageButton
+        android:id="@+id/tongxinfenleifanhui"
+        android:layout_width="60dp"
+        android:layout_height="65dp"
+        android:layout_alignBottom="@+id/shebeiweixiushengqing"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/topback"
+        android:scaleType="fitXY" />
+    
+    
+       <Button
+            android:id="@+id/tongxingxiaoitianxieanniu"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/shebeiweixiushengqing"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="130dp"
+            android:background="@drawable/shape_button"
+            android:gravity="center_vertical"
+            android:text="                  通行消息填写"
+            android:textSize="20sp" />
+
+               <Button
+                   android:id="@+id/tongxingxiaoxichaxun"
+                   android:layout_width="300dp"
+                   android:layout_height="50dp"
+                   android:layout_centerHorizontal="true"
+                   android:layout_marginTop="316dp"
+                   android:background="@drawable/shape_button"
+                   android:gravity="center_vertical"
+                   android:text="                  通行消息查询"
+                   android:textSize="20sp" />
+
+</RelativeLayout>

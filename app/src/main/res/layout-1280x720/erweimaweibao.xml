@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundshenhui" >
+
+    <TextView
+        android:id="@+id/shebeiweixiushengqing"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="#828282"
+        android:gravity="center"
+        android:text="设备信息"
+        android:textColor="#FFFFFF"
+        android:textSize="17sp" />
+
+  
+
+
+    <ImageButton
+        android:id="@+id/erweimaweibaojihua"
+        android:layout_width="60dp"
+        android:layout_height="65dp"
+        android:layout_alignBottom="@+id/shebeiweixiushengqing"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/topback"
+        android:scaleType="fitXY" />
+
+    <TextView
+        android:id="@+id/shebeileixing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="228dp"
+        android:layout_marginTop="86dp"
+        android:textSize="22sp"
+        android:textColor = "#FFFFFF"
+        android:text="设备类型  :" />
+
+    <TextView
+        android:id="@+id/shebeilouceng"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="228dp"
+        android:layout_marginTop="136dp"
+        android:textSize="22sp"
+        android:textColor = "#FFFFFF"
+        android:text="计划工时  :" />
+    
+        <TextView
+        android:id="@+id/gourushijian"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="228dp"
+        android:layout_marginTop="186dp"
+        android:textSize="22sp"
+        android:textColor = "#FFFFFF"
+        android:text="维保时间  :" />
+
+       <TextView
+        android:id="@+id/shiyongnianxian"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="228dp"
+        android:layout_marginTop="236dp"
+        android:textSize="22sp"
+        android:textColor = "#FFFFFF"
+        android:text="制  定  人  :" />
+       
+       <TextView
+        android:id="@+id/weibaochangjia11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="228dp"
+        android:layout_marginTop="286dp"
+        android:textSize="22sp"
+        android:textColor = "#FFFFFF"
+        android:text="维保厂家  :" /> 
+        
+       <TextView
+        android:id="@+id/fuzerenyuan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="228dp"
+        android:layout_marginTop="336dp"
+        android:textSize="22sp"
+        android:textColor = "#FFFFFF"
+        android:text="负责人员  :" /> 
+        
+       <TextView
+        android:id="@+id/zhibaoshixian"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="228dp"
+        android:layout_marginTop="386dp"
+        android:textSize="22sp"
+        android:textColor = "#FFFFFF"
+        android:text="维保内容  :" />    
+        
+       
+       
+       
+       
+       
+           <TextView
+        android:id="@+id/shebeileixingneirong"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="188dp"
+        android:layout_marginTop="86dp"
+        android:textSize="22sp"
+        android:textColor = "#FFFFFF"
+        android:hint="水泵" />
+
+    <TextView
+        android:id="@+id/jihuagongshi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="188dp"
+        android:layout_marginTop="136dp"
+        android:textSize="22sp"
+        android:textColor = "#FFFFFF"
+        android:hint="SADSA-12" />
+    
+        <TextView
+        android:id="@+id/weibaoshijian"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="188dp"
+        android:layout_marginTop="186dp"
+        android:textSize="22sp"
+        android:textColor = "#FFFFFF"
+        android:hint="2018/03/23" />
+
+       <TextView
+        android:id="@+id/zhidingren"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="188dp"
+        android:layout_marginTop="236dp"
+        android:textSize="22sp"
+        android:textColor = "#FFFFFF"
+        android:hint="8年" />
+       
+       <TextView
+        android:id="@+id/weibaochangjia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="188dp"
+        android:layout_marginTop="286dp"
+        android:textSize="22sp"
+        android:textColor = "#FFFFFF"
+        android:hint="市场部" /> 
+        
+       <TextView
+        android:id="@+id/fuzerenyuanneirong"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="188dp"
+        android:layout_marginTop="336dp"
+        android:textSize="22sp"
+        android:textColor = "#FFFFFF"
+        android:hint="胖子" /> 
+        
+       <TextView
+        android:id="@+id/weibaoneirong"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="188dp"
+        android:layout_marginTop="386dp"
+        android:textSize="22sp"
+        android:textColor = "#FFFFFF"
+        android:hint="3年" />
+
+       
+         
+</RelativeLayout>

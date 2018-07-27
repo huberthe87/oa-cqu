@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+     android:background="@drawable/backgroundjunlv" >
+    
+    <TextView
+        android:id="@+id/shebeiweixiushengqing"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="消息管理" 
+        android:gravity="center"
+        android:textColor = "#FFFFFF"
+        android:textSize="17sp"
+        android:background ="#2F4F4F" />
+    
+        <ImageButton
+        android:id="@+id/xiaoxiguanlifenleifanhui"
+        android:layout_width="60dp"
+        android:layout_height="65dp"
+        android:layout_alignBottom="@+id/shebeiweixiushengqing"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+                 android:scaleType="fitXY"
+        android:background="@drawable/topback" />
+
+        <Button
+            android:id="@+id/gerenfasongxiaoxin"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/shebeiweixiushengqing"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="130dp"
+            android:background="@drawable/shape_button"
+            android:gravity="center_vertical"
+            android:text="            目标部门未处理消息"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/xiaoxishenghe"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/shebeiweixiushengqing"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="330dp"
+            android:background="@drawable/shape_button2"
+            android:gravity="center_vertical"
+            android:text="            目标部门已退回消息"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/lishixiaoxi"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/shebeiweixiushengqing"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="230dp"
+            android:background="@drawable/shape_button3"
+            android:gravity="center_vertical"
+            android:text="            目标部门已通过消息"
+            android:textSize="20sp" />
+
+</RelativeLayout>

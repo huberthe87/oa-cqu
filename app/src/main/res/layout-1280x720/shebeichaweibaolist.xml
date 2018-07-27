@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/backgroundshenhui" >
+         
+        <TextView
+            android:id="@+id/souye"
+            android:layout_width="100dp"
+            android:layout_height="45dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:background="#00FFFFff"
+            android:gravity="center"
+            android:text="时    间"
+            android:textColor="#FFFFFF"
+            android:textSize="17sp" />
+            
+      <ListView
+          android:id="@+id/lv"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+
+          android:layout_below="@+id/souye" />
+      
+
+  
+</RelativeLayout>

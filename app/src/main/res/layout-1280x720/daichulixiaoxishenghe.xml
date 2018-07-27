@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/backgroundjunlv" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="消息内容" 
+        android:gravity="center"
+        android:textColor = "#FFFFFF"
+        android:textSize="17sp"
+        android:background ="#2F4F4F" />
+
+    <ImageButton
+        android:id="@+id/fanhui"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/topback" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="420dp"
+        android:layout_height="500dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/xiaoxihuazhi" />
+
+   <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="136dp"
+        android:text="主      题  ："
+        android:textSize="16sp" />
+    
+        <TextView
+        android:id="@+id/daishenhexiaoxineirong"
+        android:layout_width="188dp"
+        android:layout_height="86dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="116dp"
+        android:layout_marginTop="226dp"
+        android:hint="今天集体去东十三楼吃饭玩耍，费用全部公司报销"
+        android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/daishenhexiaoxishijian"
+            android:layout_width="166dp"
+            android:layout_height="20dp"
+           android:layout_alignParentLeft="true"
+             android:layout_alignParentTop="true"
+            android:layout_marginLeft="138dp"
+            android:layout_marginTop="166dp"
+            android:gravity="center"
+            android:hint="2016-2-33"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/TextView04"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+             android:layout_marginLeft="60dp"
+             android:layout_marginTop="166dp"
+            android:text="发送时间："
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/daishenhexiaoxizhuti"
+            android:layout_width="166dp"
+            android:layout_height="20dp"
+             android:layout_alignParentLeft="true"
+             android:layout_alignParentTop="true"
+            android:layout_marginLeft="138dp"
+             android:layout_marginTop="136dp"
+            android:gravity="center"
+            android:hint="聚餐"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/TextView01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="316dp"
+            android:text="发  布  人："
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/daishenhexiaoxifaburen"
+            android:layout_width="166dp"
+            android:layout_height="20dp"
+             android:layout_alignParentLeft="true"
+             android:layout_alignParentTop="true"
+            android:layout_marginLeft="138dp"
+             android:layout_marginTop="316dp"
+            android:gravity="center"
+            android:hint="聚餐"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/TextView03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+             android:layout_alignParentTop="true"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="348dp"
+            android:text="审核意见："
+            android:textSize="16sp" />
+        <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="200dp"
+        android:text="公告内容："
+        android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/dachuxixiaoxishenheyijian"
+            android:layout_width="188dp"
+            android:layout_height="56dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+             android:layout_marginLeft="116dp"
+             android:layout_marginTop="371dp"
+            android:hint="今天集体去东十三楼吃饭玩耍，费用全部公司报销"
+            android:gravity="center"
+            android:textSize="12sp" />
+        
+        <Button
+        android:id="@+id/daichulixiaoxidahui"
+        android:layout_width="80dp"
+        android:layout_height="36dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="66dp"
+        android:layout_marginRight="48dp"
+        android:background="@drawable/shape_button2"
+        android:text="退回"
+        android:gravity="center"
+        android:textColor="#111111"
+        android:textSize="20sp" />
+    
+        <Button
+        android:id="@+id/daichulixiaoxitongguo"
+        android:layout_width="80dp"
+        android:layout_height="36dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="66dp"
+        android:layout_marginRight="226dp"
+        android:background="@drawable/shape_buttontongguo"
+        android:text="通过"
+        android:textColor="#111111"
+        android:textSize="20sp" />
+</RelativeLayout>

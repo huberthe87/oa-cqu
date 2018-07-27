@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/backgroundshenhui" >
+         
+        <TextView
+            android:id="@+id/souye"
+            android:layout_width="100dp"
+            android:layout_height="45dp"
+            android:layout_alignParentLeft="true"
+            android:layout_toLeftOf="@+id/shenqingneirong20"
+            android:background="#00FFFFff"
+            android:gravity="center"
+            android:text="采购日期"
+            android:textColor="#FFFFFF"
+            android:textSize="17sp" />
+
+      <TextView
+          android:id="@+id/shenqingneirong20"
+          android:layout_width="166dp"
+          android:layout_height="45dp"
+          android:layout_alignParentRight="true"
+          android:layout_alignParentTop="true"
+          android:gravity="center"
+          android:text="设备名称"
+          android:textColor="#FFFFff"
+          android:textSize="16sp" />
+
+            
+      <ListView
+          android:id="@+id/lv"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+
+          android:layout_below="@+id/souye" />
+      
+
+  
+</RelativeLayout>

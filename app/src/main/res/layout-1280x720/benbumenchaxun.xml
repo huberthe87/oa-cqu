@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background" >
+
+    <TextView
+        android:id="@+id/weixiushijianchaxun"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="#6184B3"
+        android:gravity="center"
+        android:text="事件查询"
+        android:textColor="#FFFFFF"
+        android:textSize="17sp" />
+
+    <ImageButton
+        android:id="@+id/benbumenfanhui"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/topback" />
+
+    <Button
+        android:id="@+id/daishenheshijian"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="102dp"
+        android:background="@drawable/shape_button"
+        android:gravity="center_vertical"
+        android:text="                       待审核事件"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="45dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="102dp"
+        android:src="@drawable/weichuli" />
+    
+    
+        <Button
+        android:id="@+id/yitongguoshijian"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="200dp"
+        android:background="@drawable/shape_button"
+        android:gravity="center_vertical"
+        android:text="                       已通过事件"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/imageView111"
+        android:layout_width="45dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="200dp"
+        android:src="@drawable/weichuli" />
+
+    <Button
+        android:id="@+id/chulizhongshijian"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="293dp"
+        android:text="                       处理中事件" 
+        android:background="@drawable/shape_button"
+        android:gravity="center_vertical"  
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="45dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="293dp"
+        android:src="@drawable/zhengchuli" />
+
+    <Button
+        android:id="@+id/yishentuihuishijian"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="390dp"
+        android:text="                     一审退回事件" 
+        android:background="@drawable/shape_button"
+        android:gravity="center_vertical"  
+        android:textSize="18sp"  />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="45dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="390dp"
+        android:src="@drawable/yichuli" />
+
+    <Button
+        android:id="@+id/ershentuihishijian"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="486dp"
+        android:background="@drawable/shape_button"
+        android:gravity="center_vertical"
+        android:text="                     二审退回事件"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/ImageView01"
+        android:layout_width="45dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="486dp"
+        android:src="@drawable/yichuli" />
+     
+    <Spinner
+        android:id="@+id/fasongbumen"
+        android:layout_width="200dp"
+        android:layout_height="24dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="136dp"
+        android:layout_marginTop="576dp"
+        android:background="@drawable/shape_button"
+        android:ems="10"
+        android:entries="@array/mubiaobumen"
+        android:gravity="center"
+        android:textColor="#CCCCCC" />
+    
+    
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="26dp"
+        android:layout_marginTop="576dp"
+        android:text="发 送 部 门 :"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+</RelativeLayout>

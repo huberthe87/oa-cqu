@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout    
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/backgroundqianlan" >
+         
+                 
+        <TextView
+        android:id="@+id/souye"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/backgroundqianlan"
+        android:gravity="center"
+        android:text="广告列表"
+        android:textColor="#FFFFFF"
+        android:textSize="17sp" />
+
+        <ImageButton
+        android:id="@+id/lishiguanggaofanhui"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_alignBottom="@+id/souye"
+        android:background="@drawable/topback"
+        android:scaleType="fitXY" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="136dp"
+            android:layout_height="45dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/souye"
+            android:background="#9FB6CD"
+            android:gravity="center"
+            android:text="申请时间"
+            android:textColor="#FFFFFF"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/textView1"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/textView1"
+            android:layout_toRightOf="@+id/textView1"
+            android:background="#9FB6CD"
+            android:gravity="center"
+            android:text="店铺名称"
+            android:textColor="#FFFFFF"
+            android:textSize="17sp" />
+        
+         <ListView
+             android:id="@+id/lv"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:layout_below="@+id/textView1" />
+        
+</RelativeLayout>

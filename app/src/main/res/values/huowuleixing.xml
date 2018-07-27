@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="huowuleixing">
+     <item >食品</item>
+      <item >装饰材料</item>
+      <item >厨房设备</item>
+      <item >桌椅</item>
+      <item >电子设备</item>
+      <item >衣物</item>           
+    </string-array>
+    
+</resources>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/backgroundshenhui" >
+         
+         
+
+                 
+        <TextView
+        android:id="@+id/souye"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:gravity="center"
+        android:text="维保计划列表"
+        android:background="@drawable/backgroundshenhui"
+        android:textSize="17sp" />
+
+         <TextView
+             android:id="@+id/shenqingneirong20"
+             android:layout_width="136dp"
+             android:layout_height="45dp"
+             android:layout_alignParentLeft="true"
+             android:layout_toLeftOf="@+id/fasongren"
+             android:layout_below="@+id/souye"
+             android:gravity="center"
+             android:text="计划开始时间"
+             android:textColor="#FFFFff"
+             android:textSize="16sp" />
+            
+      <ListView
+          android:id="@+id/lv"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:layout_below="@+id/shenqingneirong20"
+          android:textSize="13sp" />
+
+      <TextView
+          android:id="@+id/fasongren"
+          android:layout_width="120dp"
+          android:layout_height="45dp"
+          android:layout_alignParentRight="true"
+          android:layout_below="@+id/souye"
+          android:background="#00FFFFff"
+          android:gravity="center"
+          android:text="计划名称"
+          android:textColor="#FFFFFF"
+          android:textSize="17sp" />
+  
+</RelativeLayout>

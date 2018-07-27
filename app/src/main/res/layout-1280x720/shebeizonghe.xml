@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@drawable/backgroundshenhui" 
+>
+   
+     <LinearLayout
+        android:id="@+id/linearLayout_wxsqhecx" 
+        android:layout_width="match_parent"
+        android:layout_height="50.0dip"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="@android:color/transparent" >
+
+        <TextView
+            android:id="@+id/weixiusqhecx_sq"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="bottom"
+            android:layout_weight="1.0"
+            android:gravity="center"
+            android:text="维保信息"
+            android:background="@drawable/backgroundqianhui" 
+            android:textColor = "#FFFFFF"
+            android:textSize="20dip" />
+
+        <TextView
+            android:id="@+id/weixiusqhecx_cx"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="bottom"
+            android:layout_weight="1.0"
+            android:gravity="center"
+            android:textColor = "#FFFFFF"
+            android:background="@drawable/backgroundqianhui" 
+            android:text="设备查询"
+            android:textSize="20dip" />
+    </LinearLayout>
+     
+         
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/scrollbar">
+    </android.support.v4.view.ViewPager>
+
+    <ImageView
+        android:id="@+id/scrollbar"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_above="@+id/linearLayout_wxsqhecx"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/background2"
+        android:scaleType="matrix" />
+       
+
+</RelativeLayout>

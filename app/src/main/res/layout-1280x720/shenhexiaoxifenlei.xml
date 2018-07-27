@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+     android:background="@drawable/backgroundjunlv" >
+    
+    <TextView
+        android:id="@+id/shebeiweixiushengqing"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="审核消息管理" 
+        android:gravity="center"
+        android:textColor = "#FFFFFF"
+        android:textSize="17sp"
+        android:background ="#2F4F4F" />
+    
+        <ImageButton
+        android:id="@+id/shenhexiaoxifenleifanhui"
+        android:layout_width="60dp"
+        android:layout_height="65dp"
+        android:layout_alignBottom="@+id/shebeiweixiushengqing"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+                 android:scaleType="fitXY"
+        android:background="@drawable/topback" />
+
+        <Button
+            android:id="@+id/tuihuishenhexiaoxi"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/shebeiweixiushengqing"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="130dp"
+            android:background="@drawable/shape_button"
+            android:gravity="center_vertical"
+            android:text="                 已退回审核消息"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/daishenhexiaoxi"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/shebeiweixiushengqing"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="316dp"
+            android:background="@drawable/shape_button2"
+            android:gravity="center_vertical"
+            android:text="                   待审核消息"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/tongguoshenhexiaoxi"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_alignLeft="@+id/daishenhexiaoxi"
+            android:layout_below="@+id/tuihuishenhexiaoxi"
+            android:layout_marginTop="46dp"
+            android:background="@drawable/shape_button"
+            android:gravity="center_vertical"
+            android:text="                 已通过审核消息"
+            android:textSize="20sp" />
+
+</RelativeLayout>
+
